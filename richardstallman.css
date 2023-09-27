@@ -1,0 +1,277 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(0, 7, 10, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav ul
+{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+video
+{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+
+}
+.overlay
+{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.ric
+{
+    border-radius: 50%;
+     margin-left: 20px;
+}
+h1
+{
+    margin-left: 60px;
+    font-size: 40px;
+    color: rgb(252, 244, 244);
+    display: flex;
+}
+#about
+{
+    display: flex;
+    margin: 20px;
+    background-color: black;
+    width:100%;
+    height: 100%;
+
+}
+body
+{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+h2
+{
+    color: aliceblue;
+    margin-top: 90px;
+    font-size:40px ;
+    text-shadow:4px 5px 3px  rgb(235, 49, 49);
+    display: flex;
+}
+h3{
+    color: rgba(241, 15, 166, 0.945);
+    text-align: center;
+    font-size: 30px;
+
+}
+ul li
+{
+    margin-left: 60px;
+    font-size: 30px;
+    color: rgb(252, 244, 244);
+    display: flex;
+}
+#awards
+{
+    display:flex;
+    margin-top: 30px;
+    margin-left: 0px;
+
+
+}
+.pic
+{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+l
+{
+    color: rgb(59, 7, 248);
+}
+#lectures{
+    
+    display: flex;
+    justify-content:space-between;
+    padding: 100px;
+    margin: 20px inset rgb(255, 0, 170);
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover
+{
+    background-position: left bottom;
+    border: none;
+    box-shadow:4px 5px 6px 2px rgba(241, 16, 16, 0.411);  
+}
+#n
+{
+   margin-right:20px; 
+   margin-top: 40px;
+  
+}
+.row
+{
+    display: flex;
+}
+
+.box
+{
+    width: 400px;
+    height: 600px;
+    border: 2px inset rgb(228, 27, 27);
+    margin: 20px;
+    background:linear-gradient(to top, rgba(230, 28, 14, 0.562)50%,rgb(227, 224, 233)50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+
+}
+
+.box:hover
+{
+    background-position: left bottom;
+    border: none;
+    box-shadow:4px 5px 6px 2px rgba(241, 16, 16, 0.411);
+}
+.box img
+{
+    width: 100%;
+
+}
+.box h4
+{
+    color: black;
+    text-align: center;
+}
+.box p
+{
+    text-align: justify;
+    margin: 20px;
+}
+.input
+{
+    width:100%;
+    margin: 10px;
+}
+button
+{
+    color: rgb(233, 81, 81);
+    background-color: black;
+}
+form
+{
+    width:500px;
+    margin-left: 400px;
+
+    margin-right: 10px;
+}
+footer
+{
+    
+    display: flex;
+    margin-left: 600px;
+    padding: 50px;
+}
+.cv
+{
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+@media screen and(width:400px){
+    *{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 400px;
+    }
+    nav{
+       
+        flex-direction: column;
+       
+        width: 400px;
+    }
+   
+    
+   
+   
+    #about
+    {
+        margin-top: 1400px;
+        width: 100px;
+        height: 50px;
+    
+    }
+    body
+    {
+        width: 400px;
+    }
+    
+    #awards
+    {
+        flex-direction: column;
+       width:300px;
+    
+    
+    }
+    .pic
+    {
+        width: 100px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+    
+    #lectures{
+        
+       flex-direction: column;
+       width: 400px;
+    }
+    
+    #n
+    {
+       width: 300px;
+      
+    }
+    .row
+    {
+        flex-direction: column;
+    }
+    
+    
+    form
+    {
+        width:300px;
+       
+    }
+    footer
+    {
+        
+        width: 300px;
+    }
+   #projects 
+   {
+    flex-direction: column;
+    width: 400px;
+   }
+   footer,form
+   {
+    width: 400px;
+   }
+   .ric{
+    width: 50px;
+    height: 20px;
+   }
+}
